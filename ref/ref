@@ -1,0 +1,25 @@
+Post Request
+
+http://localhost:8080/api/student/create
+
+Json data
+--------------------
+{
+    "name" : "Saanvi",
+    "email" : "saanvi@gmail.com",
+    "deprtment" : {
+        "departmentName" : "physics",
+        "location" : "INDIA"
+    },
+
+   "subjects" : [
+        {
+            "subjectName" : "English",
+            "marks" : 70
+        },
+        {
+            "subjectName" : "Physics",
+            "marks": 90
+        }
+]
+}
