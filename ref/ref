@@ -23,3 +23,33 @@ Json data
         }
 ]
 }
+
+
+--------------------------
+
+for update API
+
+Put request :http://localhost:8080/api/student/update
+
+Json data
+
+{
+	"id":"6301129a7d590a7381c25925",
+    "name" : "Saroj1",
+    "email" : "saroj@gmail.com",
+    "deprtment" : {
+        "departmentName" : "Computer science",
+        "location" : "INDIA"
+    },
+
+   "subjects" : [
+        {
+            "subjectName" : "API",
+            "marks" : 70
+        },
+        {
+            "subjectName" : "Java",
+            "marks": 90
+        }
+]
+}
